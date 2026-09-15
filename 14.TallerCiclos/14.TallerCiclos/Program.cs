@@ -320,7 +320,60 @@ namespace _14.TallerCiclos
             //Console.WriteLine("Y la cantidad de niños fue de {0}, la de jovenes fue de {1}, la de adultos fue de {2} y la de viejos fue de {3}", cantidadNiños, cantidadJovenes, cantidadAdultos, cantidadViejos);
 
 
-            //--
+            //----------------------Punto 8--------------------------
+
+            //El Departamento de Transito de Antioquia. desea saber de los n autos
+            //que entran a la ciudad de Medellín, cuántos autos entran con
+            //calcomanía de un determinado color.Conociendo el último dígito de la
+            //placa de cada automóvil se puede determinar el color de la calcomanía,
+            //para determinar lo anterior utilice la siguiente tabla:
+
+
+            //int cantidadAutosEnMedellin = 0;
+            //int ultimoDigito = 0;
+            //int cantidadAmarillo = 0;
+            //int cantidadRosa = 0;
+            //int cantidadRoja = 0;
+            //int cantidadVerde = 0;
+            //int cantidadAzul = 0;
+
+            //Console.WriteLine("Ingrese la cantidad de autos que entran a Medellín");
+            //cantidadAutosEnMedellin = int.Parse(Console.ReadLine());
+
+            //for (int i = 0; i < cantidadAutosEnMedellin; i++)
+            //{
+            //    Console.WriteLine("Ingrese el último dígito de la placa del auto {0}", i + 1);
+            //    ultimoDigito = int.Parse(Console.ReadLine());
+
+
+            //    if (ultimoDigito == 1 || ultimoDigito == 2)
+            //    {
+            //        cantidadAmarillo++;
+            //    }
+            //    else if (ultimoDigito == 3 || ultimoDigito == 4)
+            //    {
+            //        cantidadRosa++;
+            //    }
+            //    else if (ultimoDigito == 5 || ultimoDigito == 6)
+            //    {
+            //        cantidadRoja++;
+            //    }
+            //    else if (ultimoDigito == 7 || ultimoDigito == 8)
+            //    {
+            //        cantidadVerde++;
+            //    }
+            //    else if (ultimoDigito == 9 || ultimoDigito == 0)
+            //    {
+            //        cantidadAzul++;
+
+            //    }
+            //}
+
+            //Console.WriteLine("la cantidad de autos con calcomanía amarilla es: {0}", cantidadAmarillo);
+            //Console.WriteLine("la cantidad de autos con calcomanía rosa es: {0}", cantidadRosa);
+            //Console.WriteLine("la cantidad de autos con calcomanía roja es: {0}", cantidadRoja);
+            //Console.WriteLine("la cantidad de autos con calcomanía verde es: {0}", cantidadVerde);
+            //Console.WriteLine("la cantidad de autos con calcomanía azul es: {0}", cantidadAzul);
 
 
         }
